@@ -98,8 +98,6 @@ width: 112px;
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
   }
-
-
 /* links */
 ul {
     list-style: none;
@@ -107,8 +105,6 @@ ul {
     flex-direction: column;
     gap: 16px;
     padding: 24px 0;
-
-
 }
 ul li a{
     display: flex;
@@ -123,10 +119,7 @@ ul li a{
     text-decoration: none;
     font-weight: 500;
     transition: background 0.2s;
-
-    
 }
-
 /* pseudo-selector */
 ul li a:hover {
     background: rgba(255, 255, 255, 0.05);
