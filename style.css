@@ -76,11 +76,11 @@ width: 112px;
     z-index: 1;
     transform: translateY(-50%);
     animation: slide-back 0.2s;
+    animation: slide-back 0.2s;
   }
 
  .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
  }
   
   #switch button:hover {
@@ -170,7 +170,7 @@ font-size: 14px;
     to {
       left: 50%;
     }
-  }
+}
   
   @keyframes slide-back {
     from {
@@ -179,3 +179,4 @@ font-size: 14px;
     to {
       left: 0;
     }
+}
